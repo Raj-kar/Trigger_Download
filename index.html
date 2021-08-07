@@ -6,8 +6,8 @@
         * {
             box-sizing: border-box;
         }
-        a {
-            margin: 3rem;
+        button {
+            margin-top: 1rem;
             background-color: #3f3f3f;
             color: #fff;
             text-decoration: none;
@@ -21,15 +21,13 @@
     <center>
         <h2>Trigger a file download on Button click</h2>
         <img 
-            src="https://images.unsplash.com/photo-1628275427586-bdd38a6a1401?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80"
+            src="/sea.jpeg"
             alt="sample_image"
         >
+        <br>
+        <button onclick="window.location.href='/sea.jpeg';">Download (open in a new Page)</button>
         <br><br><br>
-        <a 
-            href="https://images.unsplash.com/photo-1628275427586-bdd38a6a1401?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80"
-            download="Sea image"
-        >Download Image
-        </a>
+        <a href="/sea.jpeg" download="sea.jpeg"><button>Download (started)</button></a>
     </center>
 </body>
 
